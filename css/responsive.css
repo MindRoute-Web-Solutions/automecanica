@@ -1,0 +1,149 @@
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .service-card:last-child {
+        grid-column: 1 / -1;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+    
+    .about .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-image {
+        order: -1;
+        max-width: 600px;
+        margin: 0 auto 40px;
+    }
+    
+    .contact .container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-info {
+        margin-bottom: 50px;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-wrap: wrap;
+    }
+    
+    .logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .main-nav {
+        width: 100%;
+        order: 3;
+        margin-top: 15px;
+        display: none;
+    }
+    
+    .main-nav.active {
+        display: block;
+    }
+    
+    .main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-nav ul li {
+        margin: 10px 0;
+    }
+    
+    .header-cta {
+        margin-left: auto;
+    }
+    
+    .mobile-menu-btn {
+        display: block;
+        margin-left: 20px;
+    }
+    
+    .hero {
+        text-align: center;
+        margin-top: 120px;
+    }
+    
+    .hero-content {
+        margin: 0 auto;
+    }
+    
+    .hero-cta {
+        justify-content: center;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .service-card:last-child {
+        max-width: 100%;
+    }
+    
+    .about-features {
+        grid-template-columns: 1fr;
+    }
+    
+    .testimonial {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .hero h2 {
+        font-size: 2rem;
+    }
+    
+    .hero-cta {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-col {
+        margin-bottom: 30px;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .footer-links {
+        justify-content: center;
+    }
+    
+    .whatsapp-float a {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
