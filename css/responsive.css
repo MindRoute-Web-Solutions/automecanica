@@ -62,6 +62,10 @@
         display: none; /* telefone escondido */
     }
 
+    .mobile-menu {
+        display: flex;
+    }
+
     .mobile-menu-btn {
         display: block;
         font-size: 2rem;
