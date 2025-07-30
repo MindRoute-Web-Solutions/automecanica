@@ -202,6 +202,11 @@ header.scrolled {
 }
 
 /* Botão do menu hambúrguer */
+
+.mobile-menu {
+    display: none; /* escondido por padrão */
+}
+
 .mobile-menu-btn {
     display: none;
     font-size: 1.8rem;
