@@ -149,19 +149,28 @@ header.scrolled {
     color: var(--primary-color);
 }
 
-.logo p {
-    font-size: 0.8rem;
+.subtitle {
+    font-size: 0.9rem;
     color: var(--text-light);
+    margin-top: 5px;
 }
 
-.header-content {
+.header-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-cta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .main-nav ul {
     display: flex;
+    align-items: center;
 }
 
 .main-nav ul li {
@@ -192,10 +201,12 @@ header.scrolled {
     margin-left: 20px;
 }
 
+/* Botão do menu hambúrguer */
 .mobile-menu-btn {
     display: none;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
+    color: var(--secondary-color);
 }
 
 /* Hero Section */

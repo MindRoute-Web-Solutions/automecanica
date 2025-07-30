@@ -108,15 +108,4 @@ document.addEventListener('DOMContentLoaded', function() {
             contactForm.reset();
         });
     }
-    
-    // Newsletter form
-    const newsletterForm = document.querySelector('.newsletter-form');
-    if (newsletterForm) {
-        newsletterForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            const emailInput = this.querySelector('input[type="email"]');
-            alert(`Obrigado por assinar nossa newsletter! Você receberá nossas atualizações no email ${emailInput.value}`);
-            emailInput.value = '';
-        });
-    }
 });

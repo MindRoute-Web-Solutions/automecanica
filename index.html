@@ -14,29 +14,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Mecânica <span>Show</span></h1>
-                <p>Especialistas em manutenção automotiva</p>
-            </div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#sobre">Sobre Nós</a></li>
-                    <li><a href="#depoimentos">Depoimentos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="header-cta">
-                <a href="tel:+5511999999999" class="btn"><i class="fas fa-phone"></i> (11) 99999-9999</a>
-            </div>
-            <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </header>
+<header>
+  <div class="container">
+    <div class="logo">
+      <h1>Mecânica <span>Show</span></h1>
+    </div>
 
+    <div class="header-bottom">
+      <p class="subtitle">Especialistas em manutenção automotiva</p>
+
+      <div class="nav-cta">
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="header-cta">
+          <a href="tel:+5511999999999" class="btn"><i class="fas fa-phone"></i> (11) 99999-9999</a>
+        </div>
+        <!-- Botão hamburguer só para mobile -->
+        <div class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+        <!-- Overlay e Menu Mobile devem ficar fora do header-bottom -->
+<div class="overlay"></div>
+<nav class="mobile-menu">
+  <ul>
+    <li><a href="#servicos">Serviços</a></li>
+    <li><a href="#sobre">Sobre Nós</a></li>
+    <li><a href="#depoimentos">Depoimentos</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+  <a href="tel:+5511999999999" class="btn"><i class="fas fa-phone"></i> (11) 99999-9999</a>
+</nav>
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -86,7 +104,7 @@
                 
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-tire"></i>
+                        <i class="fas fa-tachometer-alt"></i>
                     </div>
                     <h3>Alinhamento e Balanceamento</h3>
                     <ul>
@@ -299,23 +317,10 @@
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
-                
-                <div class="footer-col">
-                    <h4>Newsletter</h4>
-                    <p>Assine para receber dicas e promoções.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Seu e-mail">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
             </div>
             
             <div class="footer-bottom">
                 <p>&copy; 2023 Mecânica Show. Todos os direitos reservados.</p>
-                <div class="footer-links">
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos de Serviço</a>
-                </div>
             </div>
         </div>
     </footer>
